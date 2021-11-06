@@ -94,7 +94,7 @@ public final class ExtraField {
 
         String getTitle();
 
-        @lombok.Builder
+        @Builder
         @SuppressWarnings("InnerClassOfInterface")
         final class Unknown implements ExtraField.Record {
 
